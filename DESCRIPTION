@@ -1,0 +1,22 @@
+Package: econops
+Type: Package
+Title: Econops API Client for R
+Version: 0.1.0
+Authors@R: c(person("Econops", "Team", email = "info@econops.com", role = c("aut", "cre")))
+Description: R client for the Econops API providing statistical and data science capabilities for economics and finance.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports:
+    httr,
+    jsonlite,
+    digest,
+    R.cache,
+    magrittr
+Suggests:
+    testthat,
+    covr,
+    roxygen2
+URL: https://github.com/econops/api-R
+BugReports: https://github.com/econops/api-R/issues

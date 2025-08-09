@@ -1,0 +1,51 @@
+# R package specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# R package build artifacts
+*.tar.gz
+*.tgz
+*.zip
+*.pdf
+*.html
+
+# Documentation
+docs/
+man/
+
+# Cache
+.Rcache/
+*.rds
+
+# Test coverage
+coverage/
+*.cov
+
+# Development
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# R package specific
+*.Rcheck/
+*.Rcheck.bak/
+*.Rcheck.tmp/
+
+# RStudio
+.Rprofile
+.Renviron
+
+# Package installation
+*.Rout
+*.Rout.save
+
+# Temporary files
+*.tmp
+*.temp
+
